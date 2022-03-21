@@ -1,0 +1,125 @@
+toc:
+  - title: home
+    subfolderitems:
+      - page: Home Agency
+        url: /
+
+      - page: Home Studio
+        url: /index2.html
+
+      - page: Home Freelancer
+        url: /index3.html
+
+      - page: Home Developer
+        url: /index4.html
+
+      - page: Home Blogger
+        url: /index5.html
+
+      - page: Home Startup
+        url: /index6.html
+
+      - page: Home Coach
+        url: /index7.html
+
+      - page: Marketing Agency
+        url: /index8.html
+
+      - page: Business Consulting
+        url: /index9.html
+
+      - page: Creative Agency
+        url: /index10.html
+
+      - page: Creative Agency 2
+        url: /index11.html
+
+      - page: Home Portfolio 1
+        url: /index12.html
+
+      - page: Home Portfolio 2
+        url: /index13.html
+
+  - title: about
+    subfolderitems:
+      - page: About Agency
+        url: /24_about_agency.html
+
+      - page: About Business
+        url: /25_about_business.html
+
+      - page: About Me
+        url: /26_about_me.html
+
+  - title: Portfolio
+    subfolderitems:
+      - page: Portfolio Parallax
+        url: /14_portfolio_parallax.html
+
+      - page: Portfolio Horizontol
+        url: /15_portfolio_horizontal_scroll.html
+
+      - page: Portfolio Masonary
+        url: /portfolio/portfolio_masonry
+
+      - page: Portfolio Single Layout V1
+        url: /17_portfolio_single_layout_1.html
+
+      - page: Portfolio Single Layout V2
+        url: /18_portfolio_single_layout_2.html
+
+      - page: Portfolio Single Layout V3
+        url: /19_portfolio_single_layout_3.html
+
+  - title: Service
+    subfolderitems:
+      - page: Service V1
+        url: /27_service_1.html
+
+      - page: Service V2
+        url: /28_services_2.html
+
+      - page: Service V3
+        url: /29_services_3.html
+
+  - title: Pages
+    subfolderitems:
+      - page: Team
+        url: /32_team.html
+
+      - page: Career
+        url: /33_career.html
+
+      - page: Career Details
+        url: /34_career_detail.html
+
+      - page: Pricing
+        url: /37_pricing.html
+
+      - page: 404
+        url: /35_404_error.html
+
+      - page: Coming Soon
+        url: /36_coming_soon.html
+
+  - title: Blogs
+    subfolderitems:
+      - page: Blog V1
+        url: /blog-layout1.html
+
+      - page: Blog V2
+        url: /blog-layout2.html
+
+      - page: Blog Single V1
+        url: /blog-single-layout1.html
+
+      - page: Blog Single V2
+        url: /blog-single-layout2.html
+
+  - title: Contact
+    subfolderitems:
+      - page: Contact V1
+        url: /30_contact_1.html
+
+      - page: Contact V2
+        url: /31_contact_2.html

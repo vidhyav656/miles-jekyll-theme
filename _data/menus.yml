@@ -1,0 +1,49 @@
+toc:
+  - title: about
+    subfolderitems:
+      - page: About Agency
+        url: /24_about_agency.html
+      - page: About Business
+        url: /25_about_business.html
+      - page: About Me
+        url: /26_about_me.html
+  - title: Portfolio
+    subfolderitems:
+      - page: Portfolio Parallax
+        url: /portfolio_parallax
+
+      - page: Portfolio Horizontol
+        url: /portfolio_horizontal_scroll
+
+      - page: Portfolio Masonary
+        url: /portfolio_masonry
+
+      - page: Portfolio Single Layout V1
+        url: /portfolio_single_layout_1
+
+      - page: Portfolio Single Layout V2
+        url: /portfolio_single_layout_2
+
+      - page: Portfolio Single Layout V3
+        url: /portfolio_single_layout_3
+
+  - title: News
+    subfolderitems:
+      - page: Blog style 1
+        url: /blog
+
+      - page: Blog style 2
+        url: /blog_2
+
+      - page: Blog Single style 1
+        url: /blog/A-Complete-Guide-to-NFT-Marketplace-Development.html
+
+      - page: Blog Single style 2
+        url: /blog/10-Major-UX-Design-Principles-to-Watch-Out-for-in-2022.html
+
+  - title: Contact
+    subfolderitems:
+      - page: Contact V1
+        url: /contact_1
+      - page: Contact V2
+        url: /contact_2

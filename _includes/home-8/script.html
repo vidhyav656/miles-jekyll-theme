@@ -1,0 +1,39 @@
+<script>
+	$(document).on("ready", function() {
+		if ($(window).width() > 768) {
+        // init controller
+        var controller = new ScrollMagic.Controller();
+
+        // build scenes
+        new ScrollMagic.Scene({triggerElement: '.promo-primary-container', triggerHook: 0, duration: '25%'})
+              // .setClassToggle('.brand', 'white')
+              // .addIndicators()
+              .addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: '.promo-primary-container', triggerHook: 0, duration: '48%'})
+              .setTween('.promo-primary-bg', {left: '-68%', backgroundPosition: '620px 0', ease: Linear.easeNone})
+              // .addIndicators()
+              .addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: '.promo-primary-container', triggerHook: 0, duration: '50%'})
+              .setTween('.promo-primary-content', {left: 0, ease: Linear.easeNone})
+              // .addIndicators()
+              .addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: '.promo-primary-container', triggerHook: 0, duration: '50%'})
+              .setTween('.promo-primary .square', {left: '75%', ease: Linear.easeNone})
+              // .addIndicators()
+              .addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: '.step-position', triggerHook: 0, duration: '130%'})
+              .setTween('.promo-primary .square', {top: '85%', ease: Linear.easeNone})
+              // .addIndicators()
+              .addTo(controller);
+
+        new ScrollMagic.Scene({triggerElement: '.step-position', triggerHook: 0, duration: '100%'})
+              .setTween('.promo-primary', {position: 'absolute', ease: Linear.easeNone})
+              // .addIndicators()
+              .addTo(controller);
+        }
+      });
+</script>

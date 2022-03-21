@@ -1,0 +1,16 @@
+<head>
+  {% assign main_title = site.data.settings.title%}
+  <!---->
+  {% assign favicon = site.data.settings.favicon%}
+  <!---->
+  {% assign description = site.data.settings.description%}
+  <meta charset="UTF-8" />
+  <title>{{ main_title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{description}}" />
+  <meta name="author" content="shail" />
+  <meta name="keywords" content="" />
+  <link rel="icon" href="{{favicon | relative_url}}" />
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.min.css" |
+  relative_url }}" />
+</head>

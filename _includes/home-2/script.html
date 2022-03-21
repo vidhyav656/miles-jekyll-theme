@@ -1,0 +1,126 @@
+<script src="/assets/js/bundle.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    // init controller
+    var controller = new ScrollMagic.Controller();
+
+    // build scenes
+    new ScrollMagic.Scene({
+      triggerElement: ".promo-studio-container",
+      triggerHook: 0,
+      duration: "80%",
+    })
+      .setTween(".promo-studio-bg", { scale: 1.8, ease: Linear.easeNone })
+      // .addIndicators()
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: ".promo-studio-container",
+      triggerHook: 0,
+      duration: "80%",
+    })
+      .setTween(".promo-studio-man", {
+        scale: 1.8,
+        left: "-28%",
+        top: "-23%",
+        ease: Linear.easeNone,
+      })
+      // .addIndicators()
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: ".promo-studio-container",
+      triggerHook: 0,
+      duration: "80%",
+    })
+      .setTween(".promo-studio-content", {
+        top: "-60%",
+        ease: Linear.easeNone,
+      })
+      // .addIndicators()
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: ".step-animate-nav",
+      triggerHook: 0,
+      duration: "15%",
+    })
+      .setTween(".nav-header-addition-container", {
+        opacity: 0,
+        ease: Linear.easeNone,
+      })
+      // .addIndicators()
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: ".step-animate-nav-hidden",
+      triggerHook: 0,
+      duration: "15%",
+    })
+      .setTween(".nav-header-addition-container", {
+        visibility: "hidden",
+        ease: Linear.easeNone,
+      })
+      // .addIndicators()
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: ".step-animate-opacity",
+      triggerHook: 0,
+      duration: "30%",
+    })
+      .setTween(".promo-studio", { opacity: 0, ease: Linear.easeNone })
+      // .addIndicators()
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: ".step-visibility",
+      triggerHook: 0,
+      duration: "10%",
+    })
+      .setTween(".promo-studio, .nav-header-addition-container", {
+        visibility: "hidden",
+        ease: Linear.easeNone,
+      })
+      // .addIndicators()
+      .addTo(controller);
+
+    new ScrollMagic.Scene({
+      triggerElement: ".step-about-animate",
+      triggerHook: 0,
+      duration: "1%",
+    })
+      .setTween(".about-animate", {
+        top: 0,
+        opacity: 1,
+        ease: Linear.easeNone,
+      })
+      // .addIndicators()
+      .addTo(controller);
+
+    // new ScrollMagic.Scene({triggerElement: '.promo-zoom', triggerHook: 0, duration: '100%'})
+    //       .setTween('.house-right', {right: '-10%', bottom: '-20%', scale: 1.35, ease: Linear.easeNone})
+    //       .addTo(controller);
+
+    // new ScrollMagic.Scene({triggerElement: '.promo-zoom', triggerHook: 0, duration: '100%'})
+    //       .setTween('.mountains', {top: '-60%', scale: 2.2, ease: Linear.easeNone})
+    //       .addTo(controller);
+
+    // new ScrollMagic.Scene({triggerElement: '.promo-zoom', triggerHook: 0, duration: '100%'})
+    //       .setTween('.promo-zoom-titles', {top: '0%', opacity: 0, ease: Linear.easeNone})
+    //       .addTo(controller);
+
+    // new ScrollMagic.Scene({triggerElement: '.promo-zoom', triggerHook: 0, duration: '100%'})
+    //       .setTween('.navbar-nav', {opacity: 0, ease: Linear.easeNone})
+    //       .addTo(controller);
+
+    // new ScrollMagic.Scene({triggerElement: '.step-opacity', triggerHook: 0, duration: '15%'})
+    //       .setTween('.mountains, .house-right, .house-left', {opacity: 0, ease: Linear.easeNone})
+    //       .addTo(controller);
+
+    // new ScrollMagic.Scene({triggerElement: '.step-visibility', triggerHook: 0, duration: '10%'})
+    //       .setTween('.mountains, .house-right, .house-left, .navbar-nav, .promo-zoom-titles', {visibility: 'hidden', ease: Linear.easeNone})
+    //       .addTo(controller);
+  });
+</script>

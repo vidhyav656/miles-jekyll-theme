@@ -1,0 +1,9 @@
+baseurl: ""
+url: ""
+
+paginate_path: "/blog/page:num/"
+paginate: 9
+gems: [jekyll-paginate]
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
