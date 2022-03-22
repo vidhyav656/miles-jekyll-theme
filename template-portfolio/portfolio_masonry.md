@@ -1,7 +1,7 @@
 ---
 layout: 16_portfolio_masonry
 title: "portfolio_masonry"
-permalink: "portfolio_masonry"
+permalink: "/16_portfolio_masonry.html"
 ############################ Banner ##################################
 banner:
   title: "Bigger, Bolder & Better"

@@ -1,7 +1,7 @@
 ---
 layout: 17_portfolio_single_layout_1
 title: portfolio_single_layout_1
-permalink: "portfolio_single_layout_1"
+permalink: "/17_portfolio_single_layout_1.html"
 ############################ Banner ##################################
 slider:
   - image: "/assets/img/pf-banner.png"

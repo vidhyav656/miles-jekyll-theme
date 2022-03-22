@@ -60,7 +60,7 @@ toc:
         url: /15_portfolio_horizontal_scroll.html
 
       - page: Portfolio Masonary
-        url: /portfolio/portfolio_masonry
+        url: /16_portfolio_masonry.html
 
       - page: Portfolio Single Layout V1
         url: /17_portfolio_single_layout_1.html
@@ -105,16 +105,16 @@ toc:
   - title: Blogs
     subfolderitems:
       - page: Blog V1
-        url: /blog-layout1.html
+        url: /blog_layout1.html
 
       - page: Blog V2
-        url: /blog-layout2.html
+        url: /blog_layout2.html
 
       - page: Blog Single V1
-        url: /blog-single-layout1.html
+        url: /blog_single_layout1.html
 
       - page: Blog Single V2
-        url: /blog-single-layout2.html
+        url: /blog_single_layout2.html
 
   - title: Contact
     subfolderitems:

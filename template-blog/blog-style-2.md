@@ -1,6 +1,6 @@
 ---
 layout: blog-layout2
-permalink: /blog_2
+permalink: /blog_layout2.html
 
 ############################ Banner ##################################
 banner:

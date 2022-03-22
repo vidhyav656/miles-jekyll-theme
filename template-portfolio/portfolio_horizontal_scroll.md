@@ -1,7 +1,7 @@
 ---
 layout: 15_portfolio_horizontal_scroll
 title: "portfolio_horizontal_scroll"
-permalink: "portfolio_horizontal_scroll"
+permalink: "/15_portfolio_horizontal_scroll.html"
 ############################ Banner ##################################
 page_title: " UI/UX"
 ######################clients#################

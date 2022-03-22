@@ -1,7 +1,7 @@
 ---
 layout: 14_portfolio_parallax
 title: "portfolio_parallax"
-permalink: "portfolio_parallax"
+permalink: "/14_portfolio_parallax.html"
 
 ############################ Banner ##################################
 section:

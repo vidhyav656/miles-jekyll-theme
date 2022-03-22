@@ -1,7 +1,7 @@
 ---
 layout: 18_portfolio_single_layout_2
 title: portfolio_single_layout_2
-permalink: "portfolio_single_layout_2"
+permalink: "/18_portfolio_single_layout_2.html"
 ############################ Banner ##################################
 banner:
   title: "Boost your business up to high level"

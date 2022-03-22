@@ -1,6 +1,6 @@
 ---
 layout: 31_contact_2
-permalink: /contact_2
+permalink: /31_contact_2
 
 ############################ Banner ##################################
 banner:
